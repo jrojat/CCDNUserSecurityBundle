@@ -37,5 +37,11 @@
     "autoload": {
         "psr-0": { "CCDNUser\\SecurityBundle": "" }
     },
-    "target-dir": "CCDNUser/SecurityBundle"
+    "target-dir": "CCDNUser/SecurityBundle",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jrojat/CCDNUserSecurityBundle"
+        }
+    ],
 }
